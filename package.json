@@ -1,6 +1,6 @@
 {
   "name": "express-legacy-expires",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "ExpressJS middleware that automatically adds Expires headers for legacy browsers based on your Cache-Control headers.",
   "keywords": [
@@ -27,18 +27,18 @@
     "coveralls": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
   },
   "dependencies": {
-    "debug": "^1.0.3",
-    "on-headers": "0.0.0"
+    "debug": "^2.2.0",
+    "on-headers": "^1.0.1"
   },
   "devDependencies": {
-    "better-assert": "^1.0.0",
-    "chai": "^1.9.1",
-    "coveralls": "^2.11.1",
-    "express": "^4.6.1",
-    "istanbul": "^0.3.0",
-    "mocha": "^1.20.1",
-    "mocha-jshint": "0.0.7",
-    "mocha-lcov-reporter": "0.0.1",
-    "supertest": "^0.13.0"
+    "better-assert": "^1.0.2",
+    "chai": "^3.4.1",
+    "coveralls": "^2.11.4",
+    "express": "^4.13.3",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "mocha-jshint": "^2.2.5",
+    "mocha-lcov-reporter": "^1.0.0",
+    "supertest": "^1.1.0"
   }
 }
