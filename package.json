@@ -1,6 +1,6 @@
 {
   "name": "express-legacy-expires",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "ExpressJS middleware that automatically adds Expires headers for legacy browsers based on your Cache-Control headers.",
   "keywords": [
